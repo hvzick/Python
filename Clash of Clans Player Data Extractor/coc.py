@@ -12,6 +12,9 @@ headers = {
         'Authorization': f'Bearer {api_token}',
         }
 def main():
+    for file in os.listdir():
+        if file.startswith('Clan'):
+            os.unlink(file)
     c = int(input('Enter 1 for player data\nEnter 2 for clan data: '))
     if c == 1:
     # Ask for player id
