@@ -12,10 +12,6 @@ headers = {
         'Authorization': f'Bearer {api_token}',
         }
 def main():
-    
-    for file in os.listdir():
-        if file.endswith('.txt'):
-            os.unlink(file)
     c = int(input('Enter 1 for player data\nEnter 2 for clan data: '))
     if c == 1:
     # Ask for player id
@@ -58,7 +54,7 @@ def currentWar(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/currentwar'
     response = requests.get(url, headers=headers)
     currentWar = response.json()
-    with open('Player Data.txt', 'a', encoding='utf-8') as file:
+    with open('Clan Data.txt', 'a', encoding='utf-8') as file:
         file.write(f"{' ' * 30} Clan War Information\n")
         for key in currentWar:
             if key in ['clan', 'opponent']:
@@ -121,8 +117,9 @@ def clanMembers(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/members'
     response = requests.get(url, headers=headers)
     clanMembers = response.json()
-    with open('Player Data.txt', 'a', encoding='utf-8') as file:
+    with open('Clan Data.txt', 'a', encoding='utf-8') as file:
         i = 0
+        
         file.write(f"{' ' * 30} Clan Members\n")
         for item in clanMembers['items']:
             for key, value in clanMembers['items'][i].items():
@@ -130,7 +127,11 @@ def clanMembers(clanTag):
                     continue
                 title_case_key = camel_to_title_case(key)
                 title_case_value = str(value).title()
-                file.write(f'{title_case_key}: {title_case_value}\n')
+                if title_case_key == 'Tag':
+                    file.write(f'{i+1}.  {title_case_key}: {title_case_value}\n')
+                    
+                    continue
+                file.write(f'   {title_case_key}: {title_case_value}\n')
             file.write('\n')
             i += 1
     return 0
