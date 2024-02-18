@@ -5,7 +5,7 @@ import sys
 import datetime
 
 # Replace 'YOUR_API_TOKEN' with the actual API token you obtained
-api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjViMDMxMDRhLTRjMmEtNGI1Yy1iYjdkLWRjNTY4YmE5YzM3ZiIsImlhdCI6MTcwNjYzNDg1Niwic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyMi4xNjEuMjQxLjkzIl0sInR5cGUiOiJjbGllbnQifV19.ChUuPQS8aMjgz4aYEYdtTvHGGPhTnJ1mz5-6cMBBjX2f9kTtOxb5CMt74c3eYyNYzGVZc28BE8xhbDu5u9NisA'
+api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM3M2NkNTgzLWRmYWQtNGYzYi05YmNhLWFlMjYyOGUzYmJjNCIsImlhdCI6MTcwODI2NjY1Nywic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyMi4xNjEuMjQyLjEzNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.RWnmWH_nOiqkJCBfHfmPruXwG4xuEmIOBLbJM_WoSDi3pelbSGt7-oD7Jp5URbt0fr1s1HPLSlsFUGY4YmUd9w'
 
 # Set up headers with the API token for authentication
 headers = {
@@ -17,15 +17,7 @@ def main():
             os.unlink(file)
     c = int(input('Enter 1 for player data\nEnter 2 for clan data: '))
     if c == 1:
-    # Ask for player id
-        playerTag = input("Enter player tag: ").upper().strip()
-
-    # Form the API endpoint URL
-        url = f"https://api.clashofclans.com/v1/players/%23{playerTag}"
-
-    # Make the API request  
-        response = requests.get(url, headers=headers)
-        playerdata(response, playerTag)
+        playerdata()
     elif c == 2:
         clanTag = input('Enter clan tag: ').upper().strip()
         clanData(clanTag)
@@ -43,8 +35,6 @@ def clanData(clanTag):
                 warlog(clanTag)
             case 0:
                 return 
-            
-
 
 def warlog(clanTag):
     url = 'https://api.clashofclans.com/v1/clans/%23{clanTag}/warlog'
@@ -55,6 +45,7 @@ def warlog(clanTag):
 
 def currentWar(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/currentwar'
+    
     response = requests.get(url, headers=headers)
     currentWar = response.json()
     with open('Clan Data.txt', 'a', encoding='utf-8') as file:
@@ -107,14 +98,8 @@ def currentWar(clanTag):
                 file.write(f'    {k}: {value}\n')
             file.write('\n')
     return 0
-    
-
-    return 0
-
 
 # 20C2GRC0Q
-
-
 
 def clanMembers(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/members'
@@ -139,7 +124,14 @@ def clanMembers(clanTag):
             i += 1
     return 0
 
-def playerdata(response, playerTag):
+def playerdata():
+    playerTag = input("Enter player tag: ").upper().strip()
+
+    # Form the API endpoint URL
+    url = f"https://api.clashofclans.com/v1/players/%23{playerTag}"
+
+    # Make the API request  
+    response = requests.get(url, headers=headers)
 
 # Check if the request was successful (status code 200)
     if response.status_code == 200:
@@ -163,12 +155,12 @@ def playerdata(response, playerTag):
                     break
     elif response.status_code == 404:
         sys.exit(f'Not player found with tag {playerTag}')
-    elif response.status_code == 403:
-        sys.exit('Access denied, either because of missing/incorrect credentials or used API token does not grant access to the requested resource.')
-    elif response.status_code == 503:
-        sys.exit('Service is temprorarily unavailable because of maintenance.')
-    elif response.status_code == 429:
-        sys.exit('Request was throttled, because amount of requests was above the threshold defined for the used API token.')
+    # elif response.status_code == 403:
+    #     sys.exit('Access denied, either because of missing/incorrect credentials or used API token does not grant access to the requested resource.')
+    # elif response.status_code == 503:
+    #     sys.exit('Service is temprorarily unavailable because of maintenance.')
+    # elif response.status_code == 429:
+    #     sys.exit('Request was throttled, because amount of requests was above the threshold defined for the used API token.')
     else:
         print(f"Error: {response.status_code} {response.text}")
 
@@ -182,7 +174,7 @@ def playerData(player_data):
         if x == 17:
             break
     newPlayerData = caseChange(pd)
-    with open('Player Data.txt', 'a') as file:
+    with open('Player Data.txt', 'w') as file:
         file.write(f"{' ' * 30} Player Data\n")
         for key in newPlayerData:
             file.write(f"{key}: {newPlayerData[key]}\n")
