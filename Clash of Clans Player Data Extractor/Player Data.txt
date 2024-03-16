@@ -3,129 +3,16 @@ Tag: #9JVVPQVP0
 Name: FaiK
 Town Hall Level: 16
 Town Hall Weapon Level: 1
-Exp Level: 241
-Trophies: 3705
+Exp Level: 242
+Trophies: 1606
 Best Trophies: 5381
-War Stars: 1920
-Attack Wins: 1
-Defense Wins: 2
+War Stars: 1951
+Attack Wins: 16
+Defense Wins: 22
 Builder Hall Level: 10
-Builder Base Trophies: 2859
+Builder Base Trophies: 2891
 Best Builder Base Trophies: 3518
-Role: member
-War Preference: in
-Donations: 104
-Donations Received: 113
-
-                               Troop Data
-1. Troop Name = Barbarian: Troop Level = 9/12
-2. Troop Name = Archer: Troop Level = 12/12
-3. Troop Name = Goblin: Troop Level = 9/9
-4. Troop Name = Giant: Troop Level = 11/12
-5. Troop Name = Wall Breaker: Troop Level = 9/12
-6. Troop Name = Balloon: Troop Level = 10/11
-7. Troop Name = Wizard: Troop Level = 11/12
-8. Troop Name = Healer: Troop Level = 9/9
-9. Troop Name = Dragon: Troop Level = 10/11
-10. Troop Name = P.E.K.K.A: Troop Level = 11/11
-11. Troop Name = Minion: Troop Level = 9/11
-12. Troop Name = Hog Rider: Troop Level = 11/12
-13. Troop Name = Valkyrie: Troop Level = 10/11
-14. Troop Name = Golem: Troop Level = 11/13
-15. Troop Name = Witch: Troop Level = 6/7
-16. Troop Name = Lava Hound: Troop Level = 6/6
-17. Troop Name = Bowler: Troop Level = 7/7
-18. Troop Name = Baby Dragon: Troop Level = 9/9
-19. Troop Name = Miner: Troop Level = 9/10
-20. Troop Name = Super Barbarian: Troop Level = 1/5
-21. Troop Name = Super Archer: Troop Level = 1/5
-22. Troop Name = Super Wall Breaker: Troop Level = 1/6
-23. Troop Name = Super Giant: Troop Level = 1/4
-24. Troop Name = Raged Barbarian: Troop Level = 12/20
-25. Troop Name = Sneaky Archer: Troop Level = 18/20
-26. Troop Name = Beta Minion: Troop Level = 14/20
-27. Troop Name = Boxer Giant: Troop Level = 18/20
-28. Troop Name = Bomber: Troop Level = 13/20
-29. Troop Name = Power P.E.K.K.A: Troop Level = 18/20
-30. Troop Name = Cannon Cart: Troop Level = 18/20
-31. Troop Name = Drop Ship: Troop Level = 18/20
-32. Troop Name = Baby Dragon: Troop Level = 18/20
-33. Troop Name = Night Witch: Troop Level = 18/20
-34. Troop Name = Wall Wrecker: Troop Level = 5/5
-35. Troop Name = Battle Blimp: Troop Level = 4/4
-36. Troop Name = Yeti: Troop Level = 5/5
-37. Troop Name = Sneaky Goblin: Troop Level = 1/3
-38. Troop Name = Super Miner: Troop Level = 1/4
-39. Troop Name = Rocket Balloon: Troop Level = 1/4
-40. Troop Name = Ice Golem: Troop Level = 7/7
-41. Troop Name = Electro Dragon: Troop Level = 7/7
-42. Troop Name = Stone Slammer: Troop Level = 5/5
-43. Troop Name = Inferno Dragon: Troop Level = 1/4
-44. Troop Name = Super Valkyrie: Troop Level = 1/5
-45. Troop Name = Dragon Rider: Troop Level = 3/4
-46. Troop Name = Super Witch: Troop Level = 1/3
-47. Troop Name = Hog Glider: Troop Level = 19/20
-48. Troop Name = Siege Barracks: Troop Level = 4/4
-49. Troop Name = Ice Hound: Troop Level = 1/2
-50. Troop Name = Super Bowler: Troop Level = 1/4
-51. Troop Name = Super Dragon: Troop Level = 1/5
-52. Troop Name = Headhunter: Troop Level = 3/3
-53. Troop Name = Super Wizard: Troop Level = 1/4
-54. Troop Name = Super Minion: Troop Level = 1/4
-55. Troop Name = Log Launcher: Troop Level = 4/4
-56. Troop Name = Flame Flinger: Troop Level = 4/4
-57. Troop Name = Battle Drill: Troop Level = 4/4
-58. Troop Name = Electro Titan: Troop Level = 3/3
-59. Troop Name = Apprentice Warden: Troop Level = 1/4
-60. Troop Name = Super Hog Rider: Troop Level = 1/3
-61. Troop Name = Electrofire Wizard: Troop Level = 20/20
-62. Troop Name = Root Rider: Troop Level = 1/3
-63. Troop Name = L.A.S.S.I: Troop Level = 15/15
-64. Troop Name = Mighty Yak: Troop Level = 5/15
-65. Troop Name = Electro Owl: Troop Level = 10/10
-66. Troop Name = Unicorn: Troop Level = 10/10
-67. Troop Name = Phoenix: Troop Level = 10/10
-68. Troop Name = Poison Lizard: Troop Level = 7/10
-69. Troop Name = Diggy: Troop Level = 10/10
-70. Troop Name = Frosty: Troop Level = 3/10
-71. Troop Name = Spirit Fox: Troop Level = 1/10
-
-                               Hero Data
-1. Barbarian King: Hero Level = 67/95
-2. Archer Queen: Hero Level = 86/95
-3. Grand Warden: Hero Level = 65/70
-4. Battle Machine: Hero Level = 35/35
-5. Royal Champion: Hero Level = 33/45
-6. Battle Copter: Hero Level = 22/35
-
-                               Hero Equipment Data
-1. Barbarian Puppet: Hero Level = 11/18
-2. Rage Vial: Hero Level = 11/18
-3. Archer Puppet: Hero Level = 15/18
-4. Invisibility Vial: Hero Level = 15/18
-5. Eternal Tome: Hero Level = 15/18
-6. Life Gem: Hero Level = 15/18
-7. Seeking Shield: Hero Level = 15/18
-8. Royal Gem: Hero Level = 15/18
-9. Earthquake Boots: Hero Level = 8/18
-10. Vampstache: Hero Level = 2/18
-11. Giant Arrow: Hero Level = 15/18
-12. Rage Gem: Hero Level = 5/18
-13. Healer Puppet: Hero Level = 1/18
-14. Healing Tome: Hero Level = 1/18
-
-                               Spell Data
-1. Lightning Spell: Hero Level = 10/11
-2. Healing Spell: Hero Level = 9/10
-3. Rage Spell: Hero Level = 6/6
-4. Jump Spell: Hero Level = 4/5
-5. Freeze Spell: Hero Level = 7/7
-6. Poison Spell: Hero Level = 6/10
-7. Earthquake Spell: Hero Level = 5/5
-8. Haste Spell: Hero Level = 5/5
-9. Clone Spell: Hero Level = 8/8
-10. Skeleton Spell: Hero Level = 8/8
-11. Bat Spell: Hero Level = 6/6
-12. Invisibility Spell: Hero Level = 4/4
-13. Recall Spell: Hero Level = 4/5
+Donations: 0
+Donations Received: 0
+Clan Capital Contributions: 1577871
 
