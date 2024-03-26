@@ -1,0 +1,16 @@
+                               Spell Data
+1. Lightning Spell: Level = 10/11
+2. Healing Spell: Level = 9/10
+3. Rage Spell: Level = 6/6
+4. Jump Spell: Level = 4/5
+5. Freeze Spell: Level = 7/7
+6. Poison Spell: Level = 7/10
+7. Earthquake Spell: Level = 5/5
+8. Haste Spell: Level = 5/5
+9. Clone Spell: Level = 8/8
+10. Skeleton Spell: Level = 8/8
+11. Bat Spell: Level = 6/6
+12. Invisibility Spell: Level = 4/4
+13. Recall Spell: Level = 4/5
+14. Overgrowth Spell: Level = 1/4
+

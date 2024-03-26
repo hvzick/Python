@@ -18,7 +18,6 @@ def main():
     for file in os.listdir():
         if file.endswith('Data.txt'):
             os.unlink(file)
-    print(email())
     while True:
         x = input('Enter Email: ').strip()
         y = input('Enter password: ').strip()

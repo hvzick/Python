@@ -1,0 +1,323 @@
+                               Achievements Data
+1. Achievement Name: Bigger Coffers
+     Max:3
+     Current: 17
+     Target: 10
+     Information: Upgrade a Gold Storage to level 10
+     Highest Gold Storage level: 17
+
+2. Achievement Name: Get those Goblins!
+     Max:3
+     Current: 261
+     Target: 150
+     Information: Win 150 Stars on the Campaign Map
+     Stars in Campaign Map: 261
+
+3. Achievement Name: Bigger & Better
+     Max:3
+     Current: 16
+     Target: 8
+     Information: Upgrade Town Hall to level 8
+     Current Town Hall level: 16
+
+4. Achievement Name: Nice and Tidy
+     Max:3
+     Current: 4521
+     Target: 500
+     Information: Remove 500 obstacles (trees, rocks, bushes)
+     Total obstacles removed: 4521
+
+5. Achievement Name: Discover New Troops
+     Max:3
+     Current: 1
+     Target: 1
+     Information: Unlock Dragon in the Barracks
+     None
+
+6. Achievement Name: Gold Grab
+     Max:3
+     Current: 2000000000
+     Target: 100000000
+     Information: Steal 100000000 Gold
+     Total Gold looted: 2000000000
+
+7. Achievement Name: Elixir Escapade
+     Max:3
+     Current: 2000000000
+     Target: 100000000
+     Information: Steal 100000000 elixir
+     Total Elixir looted: 2000000000
+
+8. Achievement Name: Sweet Victory!
+     Max:3
+     Current: 5381
+     Target: 1250
+     Information: Achieve a total of 1250 trophies in Multiplayer battles
+     Trophy record: 5381
+
+9. Achievement Name: Empire Builder
+     Max:3
+     Current: 11
+     Target: 4
+     Information: Upgrade Clan Castle to level 4
+     Current Clan Castle level: 11
+
+10. Achievement Name: Wall Buster
+     Max:3
+     Current: 69210
+     Target: 2000
+     Information: Destroy 2000 Walls in Multiplayer battles
+     Total Walls destroyed: 69210
+
+11. Achievement Name: Humiliator
+     Max:3
+     Current: 5023
+     Target: 2000
+     Information: Destroy 2000 Town Halls in Multiplayer battles
+     Total Town Halls destroyed: 5023
+
+12. Achievement Name: Union Buster
+     Max:3
+     Current: 21473
+     Target: 2500
+     Information: Destroy 2500 Builder's Huts in Multiplayer battles
+     Total Builder's Huts destroyed: 21473
+
+13. Achievement Name: Conqueror
+     Max:3
+     Current: 6684
+     Target: 5000
+     Information: Win 5000 Multiplayer battles
+     Total multiplayer battles won: 6684
+
+14. Achievement Name: Unbreakable
+     Max:2
+     Current: 1938
+     Target: 5000
+     Information: Successfully defend against 5000 attacks
+     Total defenses won: 1938
+
+15. Achievement Name: Friend in Need
+     Max:3
+     Current: 331509
+     Target: 25000
+     Information: Donate 25000 capacity worth of reinforcements to Clanmates
+     Total capacity donated: 331509
+
+16. Achievement Name: Mortar Mauler
+     Max:3
+     Current: 18528
+     Target: 5000
+     Information: Destroy 5000 Mortars in Multiplayer battles
+     Total Mortars destroyed: 18528
+
+17. Achievement Name: Heroic Heist
+     Max:3
+     Current: 28271182
+     Target: 1000000
+     Information: Steal 1000000 Dark Elixir
+     Total Dark Elixir looted: 28271182
+
+18. Achievement Name: League All-Star
+     Max:3
+     Current: 22
+     Target: 1
+     Information: Become a Champion!
+     None
+
+19. Achievement Name: X-Bow Exterminator
+     Max:3
+     Current: 11243
+     Target: 2500
+     Information: Destroy 2500 X-Bows in Multiplayer battles
+     Total X-Bows destroyed: 11243
+
+20. Achievement Name: Firefighter
+     Max:3
+     Current: 6770
+     Target: 5000
+     Information: Destroy 5000 Inferno Towers in Multiplayer battles
+     Total Inferno Towers destroyed: 6770
+
+21. Achievement Name: War Hero
+     Max:3
+     Current: 1957
+     Target: 1000
+     Information: Score 1000 Stars for your clan in Clan War battles
+     Total Stars scored for clan in Clan War battles: 1957
+
+22. Achievement Name: Clan War Wealth
+     Max:3
+     Current: 1486440841
+     Target: 100000000
+     Information: Collect 100000000 Gold from the Clan Castle
+     Total Gold collected in Clan War bonuses: 1486440841
+
+23. Achievement Name: Anti-Artillery
+     Max:3
+     Current: 2342
+     Target: 2000
+     Information: Destroy 2000 Eagle Artilleries in Multiplayer battles
+     Total Eagle Artilleries destroyed: 2342
+
+24. Achievement Name: Sharing is caring
+     Max:2
+     Current: 8822
+     Target: 10000
+     Information: Donate 10000 Spell storage capacity worth of Spells
+     Total Spell capacity donated: 8822
+
+25. Achievement Name: Keep Your Account Safe!
+     Max:0
+     Current: 0
+     Target: 1
+     Information: Protect your Village by connecting to a social network
+     Completed!
+
+26. Achievement Name: Master Engineering
+     Max:3
+     Current: 10
+     Target: 8
+     Information: Upgrade Builder Hall to level 8
+     Current Builder Hall level: 10
+
+27. Achievement Name: Next Generation Model
+     Max:3
+     Current: 1
+     Target: 1
+     Information: Unlock Power P.E.K.K.A in the Builder Barracks
+     None
+
+28. Achievement Name: Un-Build It
+     Max:3
+     Current: 2661
+     Target: 2000
+     Information: Destroy 2000 Builder Halls in Builder Battles
+     Total Builder Halls destroyed: 2661
+
+29. Achievement Name: Champion Builder
+     Max:3
+     Current: 3518
+     Target: 3000
+     Information: Achieve a total of 3000 trophies in Builder Battles
+     Builder Trophy record: 3518
+
+30. Achievement Name: High Gear
+     Max:3
+     Current: 3
+     Target: 3
+     Information: Gear Up 3 buildings using the Master Builder
+     Total buildings geared up: 3
+
+31. Achievement Name: Hidden Treasures
+     Max:3
+     Current: 1
+     Target: 1
+     Information: Rebuild Battle Machine
+     None
+
+32. Achievement Name: Games Champion
+     Max:3
+     Current: 152690
+     Target: 100000
+     Information: Earn 100000 points in Clan Games
+     Total Clan Games points: 152690
+
+33. Achievement Name: Dragon Slayer
+     Max:1
+     Current: 1
+     Target: 1
+     Information: Slay the Giant Dragon on the Campaign Map
+     None
+
+34. Achievement Name: War League Legend
+     Max:3
+     Current: 399
+     Target: 250
+     Information: Score 250 Stars for your clan in War League battles
+     Total Stars scored for clan in War League battles: 399
+
+35. Achievement Name: Keep Your Account Safe!
+     Max:0
+     Current: 0
+     Target: 1
+     Information: Connect your account to Supercell ID for safe keeping.
+     Completed!
+
+36. Achievement Name: Well Seasoned
+     Max:3
+     Current: 149950
+     Target: 50000
+     Information: Earn 50000 points in Season Challenges
+     Total Season Challenges points: 149950
+
+37. Achievement Name: Shattered and Scattered
+     Max:2
+     Current: 3398
+     Target: 4000
+     Information: Destroy 4000 Scattershots in Multiplayer battles
+     Total Scattershots destroyed: 3398
+
+38. Achievement Name: Not So Easy This Time
+     Max:3
+     Current: 2123
+     Target: 2000
+     Information: Destroy 2000 weaponized Town Halls in Multiplayer battles
+     Weaponized Town Halls destroyed: 2123
+
+39. Achievement Name: Bust This!
+     Max:3
+     Current: 5551
+     Target: 2500
+     Information: Destroy 2500 weaponized Builder's Huts in Multiplayer battles
+     Total weaponized Builder's Huts destroyed: 5551
+
+40. Achievement Name: Superb Work
+     Max:1
+     Current: 79
+     Target: 100
+     Information: Boost a Super Troop 100 times
+     Total times Super Troops boosted: 79
+
+41. Achievement Name: Siege Sharer
+     Max:2
+     Current: 3437
+     Target: 5000
+     Information: Donate 5000 Siege Machines
+     Total Siege Machines donated: 3437
+
+42. Achievement Name: Aggressive Capitalism
+     Max:3
+     Current: 1136083
+     Target: 1000000
+     Information: Loot 1000000 Capital Gold during Raid attacks
+     Total Capital Gold looted: 1136083
+
+43. Achievement Name: Most Valuable Clanmate
+     Max:2
+     Current: 1637876
+     Target: 2000000
+     Information: Contribute 2000000 Capital Gold to upgrades in the Clan Capital
+     Total Capital Gold contributed: 1637876
+
+44. Achievement Name: Counterspell
+     Max:2
+     Current: 1325
+     Target: 4000
+     Information: Destroy 4000 Spell Towers in Multiplayer Battles
+     Total Spell Towers Destroyed: 1325
+
+45. Achievement Name: Monolith Masher
+     Max:2
+     Current: 566
+     Target: 2000
+     Information: Destroy 2000 Monoliths in Multiplayer Battles
+     Total Monoliths Destroyed: 566
+
+46. Achievement Name: Ungrateful Child
+     Max:1
+     Current: 1
+     Target: 1
+     Information: Defeat M.O.M.M.A on the Campaign Map
+     None
+

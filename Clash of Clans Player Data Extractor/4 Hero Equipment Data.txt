@@ -1,0 +1,19 @@
+                               Hero Equipment Data
+1. Giant Gauntlet: Level = 12/27
+2. Fireball: Level = 7/27
+3. Barbarian Puppet: Level = 11/18
+4. Rage Vial: Level = 11/18
+5. Archer Puppet: Level = 15/18
+6. Invisibility Vial: Level = 15/18
+7. Eternal Tome: Level = 15/18
+8. Life Gem: Level = 16/18
+9. Seeking Shield: Level = 18/18
+10. Royal Gem: Level = 17/18
+11. Earthquake Boots: Level = 14/18
+12. Vampstache: Level = 5/18
+13. Giant Arrow: Level = 15/18
+14. Rage Gem: Level = 5/18
+15. Hog Rider Puppet: Level = 1/18
+16. Healer Puppet: Level = 1/18
+17. Healing Tome: Level = 1/18
+

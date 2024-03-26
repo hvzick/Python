@@ -76,7 +76,7 @@
    Role: Admin
    Town Hall Level: 16
    Exp Level: 204
-   Trophies: 4741
+   Trophies: 4749
    Builder Base Trophies: 4647
    Clan Rank: 7
    Previous Clan Rank: 7
