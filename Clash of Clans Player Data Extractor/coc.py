@@ -3,9 +3,10 @@ import re
 import os
 import sys
 import datetime
-
+from Authorization import email
+from Authorization import password
 # Replace 'YOUR_API_TOKEN' with the actual API token you obtained
-api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjJmNjZlODRkLWMwZmYtNDNkZi04YmE0LWJiNjdhNjNhNzliMyIsImlhdCI6MTcxMDU4Mjg2OSwic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyMi4xNjEuMjQxLjU0Il0sInR5cGUiOiJjbGllbnQifV19.mS7nHurqf3gw8RDM8KehdarXG4-_tps33p3zh7nfq6FV-_EgGMHn64NqWcfIM82D9im71TW7cc8I4bYU4VwCpA'
+api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5NzgxZGE1LWMzNjMtNDBiOS1hMWYyLTU3NDQ5ZGRmMmNhMiIsImlhdCI6MTcxMTQ0NDA4Miwic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE2OS4xNDkuMTkzLjQ4Il0sInR5cGUiOiJjbGllbnQifV19.r8JWG1Tjc6ZA1f2XavBaoRiJwtoZjQGdNxsi_uxeG2VvKRzNBMg_idNNcz0wT3r91IRE2eOtqeCiuP7oTImyWQ'
 
 # Set up headers with the API token for authentication
 headers = {
@@ -15,21 +16,32 @@ headers = {
 
 def main():
     for file in os.listdir():
-        if file.startswith('Clan'):
+        if file.endswith('Data.txt'):
             os.unlink(file)
-    c = int(input('Enter 1 for player data\nEnter 2 for clan data: '))
-    if c == 1:
-        playerdata()
-    elif c == 2:
-        clanTag = input('Enter clan tag: ').upper().strip()
-        clanData(clanTag)
+    print(email())
+    while True:
+        x = input('Enter Email: ').strip()
+        y = input('Enter password: ').strip()
+        if x == email() and y == password():
+            print('\nAuthorization Successful\n')
+            break
+        else:
+            print('Email or Password incorrect')
 
-
+    while True:
+        c = int(input('Enter 1 for player data\nEnter 2 for clan data\nEnter 0 to exit: \n'))
+        if c == 1:
+            playerdata()
+        elif c == 2:
+            clanTag = input('Enter clan tag: ').upper().strip()
+            clanData(clanTag)
+        elif c == 0:
+             break
 
 
 def clanData(clanTag):
     while True:
-        x = int(input('Enter 1 for Clan Members Information\nEnter 2 for Current War Status\nEnter 3 for Clan Warlog\nEnter 0 to exit: '))
+        x = int(input('\nEnter 1 for Clan Members Information\nEnter 2 for Current War Status\nEnter 3 for Clan Warlog\nEnter 0 to exit: '))
         match x:
             case 1:
                 clanMembers(clanTag)
@@ -56,7 +68,7 @@ def currentWar(clanTag):
 
     response = requests.get(url, headers=headers)
     currentWar = response.json()
-    with open('Clan Data.txt', 'a', encoding='utf-8') as file:
+    with open('2 Current War Data.txt', 'w', encoding='utf-8') as file:
         file.write(f"{' ' * 30} Clan War Information\n")
         for key in currentWar:
             if key in ['clan', 'opponent']:
@@ -107,14 +119,14 @@ def currentWar(clanTag):
             file.write('\n')
     return 0
 
-# 20C2GRC0Q
+# 9cvrl9qq
 
 
 def clanMembers(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/members'
     response = requests.get(url, headers=headers)
     clanMembers = response.json()
-    with open('Clan Data.txt', 'a', encoding='utf-8') as file:
+    with open('1 Clan Members Data.txt', 'w', encoding='utf-8') as file:
         i = 0
 
         file.write(f"{' ' * 30} Clan Members\n")
@@ -147,10 +159,10 @@ def playerdata():
 # Check if the request was successful (status code 200)
     if response.status_code == 200:
         while True:
-            x = int(input("\nEnter 1 for Player Data\nEnter 2 for Troop Data \nEnter 3 for Hero Data \nEnter 4 for Hero Equipment Data \nEnter 5 for Spell Data \nEnter 0 to exit: "))
+            x = int(input("\nEnter 1 for Player Data\nEnter 2 for Troop Data \nEnter 3 for Hero Data \nEnter 4 for Hero Equipment Data \nEnter 5 for Spell Data \nEnter 6 for Achievement Data\nEnter 0 to exit: "))
             player_data = response.json()
-            if x > 4 or x < 0:
-                print(f"Invalid input: {x}")
+            if x > 6 or x < 0:
+                print(f"\nInvalid input: {x}\n")
             match x:
                 case 1:
                     playerData(player_data)
@@ -162,8 +174,10 @@ def playerdata():
                     heroEqpData(player_data)
                 case 5:
                     spellData(player_data)
+                case 6:
+                    achievementData(player_data)
                 case 0:
-                    break
+                    return
     elif response.status_code == 404:
         sys.exit(f'Not player found with tag {playerTag}')
     # elif response.status_code == 403:
@@ -187,7 +201,7 @@ def playerData(player_data):
         if x == 17:
             break
     newPlayerData = caseChange(pd)
-    with open('Player Data.txt', 'w') as file:
+    with open('1 Player Data.txt', 'w') as file:
         file.write(f"{' ' * 30} Player Data\n")
         i = 0
         for key in newPlayerData:
@@ -200,22 +214,19 @@ def playerData(player_data):
     return 0
 
 
-
 def troopData(player_data):
-    with open('Player Data.txt', 'a') as file:
+    with open('2 Troop Data.txt', 'w') as file:
         no = 1
         file.write(f"{' ' * 30} Troop Data\n")
         for n in player_data['troops']:
-            file.write(f"{no}. Troop Name = {n['name']}: Troop Level = {n['level']}/{n['maxLevel']}\n")
+            file.write(f"{no}. {n['name']}: Level = {n['level']}/{n['maxLevel']}\n")
             no += 1
         file.write('\n')
     return 0
 
 
-
-
 def heroData(player_data):
-    with open('Player Data.txt', 'a') as file:
+    with open('3 Hero Data.txt', 'w') as file:
         no = 1
         file.write(f"{' ' * 30} Hero Data\n")
         for n in player_data['heroes']:
@@ -225,36 +236,30 @@ def heroData(player_data):
     return 0
 
 
-
-
 def heroEqpData(player_data):
-    with open('Player Data.txt', 'a') as file:
+    with open('4 Hero Equipment Data.txt', 'w') as file:
         no = 1
         file.write(f"{' ' * 30} Hero Equipment Data\n")
         for n in player_data['heroEquipment']:
-            file.write(f"{no}. {n['name']}: Hero Level = {n['level']}/{n['maxLevel']}\n")
+            file.write(f"{no}. {n['name']}: Level = {n['level']}/{n['maxLevel']}\n")
             no += 1
         file.write('\n')
     return 0
-
-
 
 
 def spellData(player_data):
-    with open('Player Data.txt', 'a') as file:
+    with open('5 Spell Data.txt', 'w') as file:
         no = 1
         file.write(f"{' ' * 30} Spell Data\n")
         for n in player_data['spells']:
-            file.write(f"{no}. {n['name']}: Hero Level = {n['level']}/{n['maxLevel']}\n")
+            file.write(f"{no}. {n['name']}: Level = {n['level']}/{n['maxLevel']}\n")
             no += 1
         file.write('\n')
     return 0
-
 
 
 def camel_to_title_case(key):
     return re.sub(r'([a-z0-9])([A-Z])', r'\1 \2', key).title()
-
 
 
 def caseChange(input_dict):
@@ -267,11 +272,12 @@ def caseChange(input_dict):
 
 
 def achievementData(player_data):
-    with open('Player Data.txt', 'a') as file:
+    with open('6 Achievement Data.txt', 'w') as file:
         file.write(f"{' ' * 30} Achievements Data\n")
         no = 1
         for n in player_data['achievements']:
-            print(f"{no}. {n['name']}:{n['stars']} {n['value']} {n['target']} {n['info']} {n['completionInfo']}")
+            file.write(f"{no}. Achievement Name: {n['name']}\n     Max:{n['stars']}\n     Current: {n['value']}\n     Target: {n['target']}\n     Information: {n['info']}\n     {n['completionInfo']}")
+            file.write('\n')
             no += 1
             file.write('\n')
     return 0
