@@ -22,10 +22,10 @@
 
 4. Achievement Name: Nice and Tidy
      Max:3
-     Current: 4521
+     Current: 4522
      Target: 500
      Information: Remove 500 obstacles (trees, rocks, bushes)
-     Total obstacles removed: 4521
+     Total obstacles removed: 4522
 
 5. Achievement Name: Discover New Troops
      Max:3
@@ -64,59 +64,59 @@
 
 10. Achievement Name: Wall Buster
      Max:3
-     Current: 69210
+     Current: 69255
      Target: 2000
      Information: Destroy 2000 Walls in Multiplayer battles
-     Total Walls destroyed: 69210
+     Total Walls destroyed: 69255
 
 11. Achievement Name: Humiliator
      Max:3
-     Current: 5023
+     Current: 5027
      Target: 2000
      Information: Destroy 2000 Town Halls in Multiplayer battles
-     Total Town Halls destroyed: 5023
+     Total Town Halls destroyed: 5027
 
 12. Achievement Name: Union Buster
      Max:3
-     Current: 21473
+     Current: 21496
      Target: 2500
      Information: Destroy 2500 Builder's Huts in Multiplayer battles
-     Total Builder's Huts destroyed: 21473
+     Total Builder's Huts destroyed: 21496
 
 13. Achievement Name: Conqueror
      Max:3
-     Current: 6684
+     Current: 6688
      Target: 5000
      Information: Win 5000 Multiplayer battles
-     Total multiplayer battles won: 6684
+     Total multiplayer battles won: 6688
 
 14. Achievement Name: Unbreakable
      Max:2
-     Current: 1938
+     Current: 1940
      Target: 5000
      Information: Successfully defend against 5000 attacks
-     Total defenses won: 1938
+     Total defenses won: 1940
 
 15. Achievement Name: Friend in Need
      Max:3
-     Current: 331509
+     Current: 331844
      Target: 25000
      Information: Donate 25000 capacity worth of reinforcements to Clanmates
-     Total capacity donated: 331509
+     Total capacity donated: 331844
 
 16. Achievement Name: Mortar Mauler
      Max:3
-     Current: 18528
+     Current: 18544
      Target: 5000
      Information: Destroy 5000 Mortars in Multiplayer battles
-     Total Mortars destroyed: 18528
+     Total Mortars destroyed: 18544
 
 17. Achievement Name: Heroic Heist
      Max:3
-     Current: 28271182
+     Current: 28307149
      Target: 1000000
      Information: Steal 1000000 Dark Elixir
-     Total Dark Elixir looted: 28271182
+     Total Dark Elixir looted: 28307149
 
 18. Achievement Name: League All-Star
      Max:3
@@ -127,45 +127,45 @@
 
 19. Achievement Name: X-Bow Exterminator
      Max:3
-     Current: 11243
+     Current: 11257
      Target: 2500
      Information: Destroy 2500 X-Bows in Multiplayer battles
-     Total X-Bows destroyed: 11243
+     Total X-Bows destroyed: 11257
 
 20. Achievement Name: Firefighter
      Max:3
-     Current: 6770
+     Current: 6780
      Target: 5000
      Information: Destroy 5000 Inferno Towers in Multiplayer battles
-     Total Inferno Towers destroyed: 6770
+     Total Inferno Towers destroyed: 6780
 
 21. Achievement Name: War Hero
      Max:3
-     Current: 1957
+     Current: 1962
      Target: 1000
      Information: Score 1000 Stars for your clan in Clan War battles
-     Total Stars scored for clan in Clan War battles: 1957
+     Total Stars scored for clan in Clan War battles: 1962
 
 22. Achievement Name: Clan War Wealth
      Max:3
-     Current: 1486440841
+     Current: 1494143341
      Target: 100000000
      Information: Collect 100000000 Gold from the Clan Castle
-     Total Gold collected in Clan War bonuses: 1486440841
+     Total Gold collected in Clan War bonuses: 1494143341
 
 23. Achievement Name: Anti-Artillery
      Max:3
-     Current: 2342
+     Current: 2346
      Target: 2000
      Information: Destroy 2000 Eagle Artilleries in Multiplayer battles
-     Total Eagle Artilleries destroyed: 2342
+     Total Eagle Artilleries destroyed: 2346
 
 24. Achievement Name: Sharing is caring
      Max:2
-     Current: 8822
+     Current: 8845
      Target: 10000
      Information: Donate 10000 Spell storage capacity worth of Spells
-     Total Spell capacity donated: 8822
+     Total Spell capacity donated: 8845
 
 25. Achievement Name: Keep Your Account Safe!
      Max:0
@@ -246,31 +246,31 @@
 
 36. Achievement Name: Well Seasoned
      Max:3
-     Current: 149950
+     Current: 150070
      Target: 50000
      Information: Earn 50000 points in Season Challenges
-     Total Season Challenges points: 149950
+     Total Season Challenges points: 150070
 
 37. Achievement Name: Shattered and Scattered
      Max:2
-     Current: 3398
+     Current: 3406
      Target: 4000
      Information: Destroy 4000 Scattershots in Multiplayer battles
-     Total Scattershots destroyed: 3398
+     Total Scattershots destroyed: 3406
 
 38. Achievement Name: Not So Easy This Time
      Max:3
-     Current: 2123
+     Current: 2127
      Target: 2000
      Information: Destroy 2000 weaponized Town Halls in Multiplayer battles
-     Weaponized Town Halls destroyed: 2123
+     Weaponized Town Halls destroyed: 2127
 
 39. Achievement Name: Bust This!
      Max:3
-     Current: 5551
+     Current: 5564
      Target: 2500
      Information: Destroy 2500 weaponized Builder's Huts in Multiplayer battles
-     Total weaponized Builder's Huts destroyed: 5551
+     Total weaponized Builder's Huts destroyed: 5564
 
 40. Achievement Name: Superb Work
      Max:1
@@ -281,17 +281,17 @@
 
 41. Achievement Name: Siege Sharer
      Max:2
-     Current: 3437
+     Current: 3440
      Target: 5000
      Information: Donate 5000 Siege Machines
-     Total Siege Machines donated: 3437
+     Total Siege Machines donated: 3440
 
 42. Achievement Name: Aggressive Capitalism
      Max:3
-     Current: 1136083
+     Current: 1145183
      Target: 1000000
      Information: Loot 1000000 Capital Gold during Raid attacks
-     Total Capital Gold looted: 1136083
+     Total Capital Gold looted: 1145183
 
 43. Achievement Name: Most Valuable Clanmate
      Max:2
@@ -302,17 +302,17 @@
 
 44. Achievement Name: Counterspell
      Max:2
-     Current: 1325
+     Current: 1331
      Target: 4000
      Information: Destroy 4000 Spell Towers in Multiplayer Battles
-     Total Spell Towers Destroyed: 1325
+     Total Spell Towers Destroyed: 1331
 
 45. Achievement Name: Monolith Masher
      Max:2
-     Current: 566
+     Current: 570
      Target: 2000
      Information: Destroy 2000 Monoliths in Multiplayer Battles
-     Total Monoliths Destroyed: 566
+     Total Monoliths Destroyed: 570
 
 46. Achievement Name: Ungrateful Child
      Max:1

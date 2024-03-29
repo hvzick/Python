@@ -1,6 +1,6 @@
                                Hero Equipment Data
 1. Giant Gauntlet: Level = 12/27
-2. Fireball: Level = 7/27
+2. Fireball: Level = 10/27
 3. Barbarian Puppet: Level = 11/18
 4. Rage Vial: Level = 11/18
 5. Archer Puppet: Level = 15/18
@@ -14,6 +14,7 @@
 13. Giant Arrow: Level = 15/18
 14. Rage Gem: Level = 5/18
 15. Hog Rider Puppet: Level = 1/18
-16. Healer Puppet: Level = 1/18
-17. Healing Tome: Level = 1/18
+16. Haste Vial: Level = 1/18
+17. Healer Puppet: Level = 1/18
+18. Healing Tome: Level = 1/18
 

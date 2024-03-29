@@ -1,0 +1,14 @@
+                               Clan Information Data
+Tag: #9CVRL9QQ
+Name: BIG勉
+Type: Invite Only
+Description: 常時クラン戦参加条件最低1回攻撃。復帰者多めのクランです！挨拶なし、非活動キック対象。クランゲーム毎回MAX報酬獲得。攻撃上手くなくてもおk👍一緒に強くなりましょう！クラン戦では基本同番攻撃をお願いします！
+Country Id: 32000122
+Country Name: Japan
+Is Country: True
+Country Country Code: JP
+Is Family Friendly: False
+Clan Level: 24
+Clan Points: 42553
+Clan Builder Base Points: 43257
+Clan Capital Points: 2992

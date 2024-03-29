@@ -6,13 +6,13 @@ Town Hall Weapon Level: 1
 Exp Level: 242
 Trophies: 2482
 Best Trophies: 5381
-War Stars: 1957
-Attack Wins: 2
-Defense Wins: 0
+War Stars: 1962
+Attack Wins: 6
+Defense Wins: 2
 Builder Hall Level: 10
 Builder Base Trophies: 3016
 Best Builder Base Trophies: 3518
 Role: member
 War Preference: in
-Donations: 65
+Donations: 513
 

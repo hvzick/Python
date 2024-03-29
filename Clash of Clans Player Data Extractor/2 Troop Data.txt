@@ -53,7 +53,7 @@
 52. Headhunter: Level = 3/3
 53. Super Wizard: Level = 1/8
 54. Super Minion: Level = 1/9
-55. Log Launcher: Level = 4/5
+55. Log Launcher: Level = 5/5
 56. Flame Flinger: Level = 4/4
 57. Battle Drill: Level = 4/4
 58. Electro Titan: Level = 3/3

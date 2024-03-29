@@ -2,9 +2,9 @@
 Clan War State: Preparation
 Clan War Team Size: 40
 Clan War Attacks Per Member: 2
-Clan War Preparation Start Time: 2024-03-25 11:28:51
-Clan War Start Time: 2024-03-26 10:28:51
-Clan War End Time: 2024-03-27 10:28:51
+Clan War Preparation Start Time: 2024-03-29 13:10:23
+Clan War Start Time: 2024-03-30 12:10:23
+Clan War End Time: 2024-03-31 12:10:23
 
                                My clan War Status
 Tag: #9CVRL9QQ
@@ -18,223 +18,223 @@ Destruction Percentage: 0.0
 1.  Tag: #LCL92QVL
     Name: kuro
     Townhall Level: 16
-    Map Position: 13
+    Map Position: 14
     Opponent Attacks: 0
 
 2.  Tag: #LC8V0P9GP
     Name: King 2
     Townhall Level: 14
-    Map Position: 29
+    Map Position: 30
     Opponent Attacks: 0
 
 3.  Tag: #LYLVGU2VQ
     Name: SERDAR 82
     Townhall Level: 14
+    Map Position: 29
+    Opponent Attacks: 0
+
+4.  Tag: #VUJQ9V9U
+    Name: yu-ji
+    Townhall Level: 15
     Map Position: 28
     Opponent Attacks: 0
 
-4.  Tag: #9PLP9LPJ
-    Name: Gary Bones
-    Townhall Level: 13
-    Map Position: 36
-    Opponent Attacks: 0
-
-5.  Tag: #VUJQ9V9U
-    Name: yu-ji
-    Townhall Level: 15
-    Map Position: 27
-    Opponent Attacks: 0
-
-6.  Tag: #8GGJ8RL2P
+5.  Tag: #8GGJ8RL2P
     Name: WaWoo
     Townhall Level: 16
-    Map Position: 5
+    Map Position: 6
     Opponent Attacks: 0
 
-7.  Tag: #2PQ98RQUQ
+6.  Tag: #2PQ98RQUQ
     Name: Prof Grock, ST
     Townhall Level: 15
     Map Position: 11
     Opponent Attacks: 0
 
-8.  Tag: #R82PPV29
+7.  Tag: #R82PPV29
     Name: コツガイ07
     Townhall Level: 16
     Map Position: 3
     Opponent Attacks: 0
 
-9.  Tag: #RGV9R2VY
+8.  Tag: #RGV9R2VY
     Name: サリンジャ ー
     Townhall Level: 16
     Map Position: 2
     Opponent Attacks: 0
 
-10.  Tag: #208R2VG89
+9.  Tag: #208R2VG89
     Name: ウッドペッカー
     Townhall Level: 14
-    Map Position: 19
+    Map Position: 21
     Opponent Attacks: 0
 
-11.  Tag: #Y8VP2VGVJ
+10.  Tag: #Y8VP2VGVJ
     Name: abod
     Townhall Level: 14
     Map Position: 38
     Opponent Attacks: 0
 
-12.  Tag: #Q2VR2QU8P
+11.  Tag: #Q2VR2QU8P
     Name: sd
-    Townhall Level: 15
-    Map Position: 14
+    Townhall Level: 16
+    Map Position: 13
     Opponent Attacks: 0
 
-13.  Tag: #22QUY28VC
+12.  Tag: #22QUY28VC
     Name: tanukimura
     Townhall Level: 16
     Map Position: 15
     Opponent Attacks: 0
 
-14.  Tag: #JYU2QVY8
+13.  Tag: #JYU2QVY8
     Name: Voyager
     Townhall Level: 16
     Map Position: 1
     Opponent Attacks: 0
 
-15.  Tag: #9JVVPQVP0
+14.  Tag: #9JVVPQVP0
     Name: FaiK
     Townhall Level: 16
-    Map Position: 6
+    Map Position: 5
     Opponent Attacks: 0
 
-16.  Tag: #QG09Y0CVY
+15.  Tag: #QG09Y0CVY
     Name: omran s omran
     Townhall Level: 14
-    Map Position: 30
+    Map Position: 31
     Opponent Attacks: 0
 
-17.  Tag: #8V2L8RC2R
+16.  Tag: #8V2L8RC2R
     Name: monster yazan
     Townhall Level: 14
-    Map Position: 23
+    Map Position: 24
     Opponent Attacks: 0
 
-18.  Tag: #89R8Q9Y9G
+17.  Tag: #89R8Q9Y9G
     Name: mosu
     Townhall Level: 16
     Map Position: 7
     Opponent Attacks: 0
 
-19.  Tag: #QGY28208C
-    Name: Pan1rokzzz
-    Townhall Level: 14
-    Map Position: 37
-    Opponent Attacks: 0
-
-20.  Tag: #GC20VJR9
+18.  Tag: #GC20VJR9
     Name: とよ
     Townhall Level: 14
-    Map Position: 16
+    Map Position: 17
     Opponent Attacks: 0
 
-21.  Tag: #Y0YRR82PL
+19.  Tag: #Y0YRR82PL
     Name: 大翔さん
     Townhall Level: 15
     Map Position: 12
     Opponent Attacks: 0
 
-22.  Tag: #P0CRR0GC
+20.  Tag: #P0CRR0GC
     Name: 微助人
     Townhall Level: 16
     Map Position: 4
     Opponent Attacks: 0
 
-23.  Tag: #L0PLLPVUG
+21.  Tag: #L0PLLPVUG
     Name: AKIRA
     Townhall Level: 14
-    Map Position: 26
+    Map Position: 27
     Opponent Attacks: 0
 
-24.  Tag: #L2L2C2CG0
+22.  Tag: #L2L2C2CG0
     Name: THExONEx31
     Townhall Level: 13
     Map Position: 39
     Opponent Attacks: 0
 
-25.  Tag: #Y0P2289GR
+23.  Tag: #Y0P2289GR
     Name: Alanvirtual
+    Townhall Level: 14
+    Map Position: 35
+    Opponent Attacks: 0
+
+24.  Tag: #G90C9YVL
+    Name: jupe eden
+    Townhall Level: 14
+    Map Position: 23
+    Opponent Attacks: 0
+
+25.  Tag: #UJJYPJ29
+    Name: ヒロ★
+    Townhall Level: 13
+    Map Position: 36
+    Opponent Attacks: 0
+
+26.  Tag: #2P9V2UYU
+    Name: Barzan___Duskii
+    Townhall Level: 15
+    Map Position: 25
+    Opponent Attacks: 0
+
+27.  Tag: #JJ2PVG2U
+    Name: boybem's
     Townhall Level: 14
     Map Position: 34
     Opponent Attacks: 0
 
-26.  Tag: #G90C9YVL
-    Name: jupe eden
-    Townhall Level: 14
-    Map Position: 21
-    Opponent Attacks: 0
-
-27.  Tag: #UJJYPJ29
-    Name: ヒロ★
-    Townhall Level: 13
-    Map Position: 35
-    Opponent Attacks: 0
-
-28.  Tag: #2P9V2UYU
-    Name: Barzan___Duskii
-    Townhall Level: 15
-    Map Position: 24
-    Opponent Attacks: 0
-
-29.  Tag: #JJ2PVG2U
-    Name: boybem's
-    Townhall Level: 14
-    Map Position: 33
-    Opponent Attacks: 0
-
-30.  Tag: #20Q089P80
+28.  Tag: #20Q089P80
     Name: tirisa
     Townhall Level: 14
+    Map Position: 20
+    Opponent Attacks: 0
+
+29.  Tag: #8JLGGUYVC
+    Name: атаня
+    Townhall Level: 14
+    Map Position: 19
+    Opponent Attacks: 0
+
+30.  Tag: #Q9JP0VPYR
+    Name: Fanta.
+    Townhall Level: 14
+    Map Position: 26
+    Opponent Attacks: 0
+
+31.  Tag: #2PLUJGUU8
+    Name: sidik
+    Townhall Level: 16
     Map Position: 18
     Opponent Attacks: 0
 
-31.  Tag: #8JLGGUYVC
-    Name: атаня
-    Townhall Level: 14
-    Map Position: 17
-    Opponent Attacks: 0
-
-32.  Tag: #Q9JP0VPYR
-    Name: Fanta.
-    Townhall Level: 14
-    Map Position: 25
-    Opponent Attacks: 0
-
-33.  Tag: #2PLUJGUU8
-    Name: sidik
-    Townhall Level: 15
-    Map Position: 22
-    Opponent Attacks: 0
-
-34.  Tag: #GL28G2CJC
+32.  Tag: #GL28G2CJC
     Name: メイララ
     Townhall Level: 12
     Map Position: 40
     Opponent Attacks: 0
 
-35.  Tag: #QUV92PQG
+33.  Tag: #QUV92PQG
     Name: Crocodile
     Townhall Level: 16
     Map Position: 8
     Opponent Attacks: 0
 
-36.  Tag: #9GYJLPQ9
+34.  Tag: #2LC9PV0YL
+    Name: Dark Knight
+    Townhall Level: 14
+    Map Position: 16
+    Opponent Attacks: 0
+
+35.  Tag: #9GYJLPQ9
     Name: Emerson Messi!!
     Townhall Level: 14
-    Map Position: 31
+    Map Position: 32
+    Opponent Attacks: 0
+
+36.  Tag: #L2GCCYCY
+    Name: Deby Ls
+    Townhall Level: 14
+    Map Position: 37
     Opponent Attacks: 0
 
 37.  Tag: #GCGQJ9CQ
     Name: Azhonk
     Townhall Level: 14
-    Map Position: 20
+    Map Position: 22
     Opponent Attacks: 0
 
 38.  Tag: #Q02G0RVCR
@@ -252,256 +252,256 @@ Destruction Percentage: 0.0
 40.  Tag: #PUQCYCJ2L
     Name: Арсенчик
     Townhall Level: 14
-    Map Position: 32
+    Map Position: 33
     Opponent Attacks: 0
 
 
                                Enemy Clan War Status
-Tag: #2GC9GYYP
-Name: 파랑새
-Clan Level: 15
+Tag: #CQQC0VYL
+Name: ROYAL RAYEE
+Clan Level: 23
 Attacks: 0
 Stars: 0
 Destruction Percentage: 0.0
 
                                Enemy clan War Members
-1.  Tag: #PJPJ92GG
-    Name: kims
-    Townhall Level: 13
-    Map Position: 28
-    Opponent Attacks: 0
-
-2.  Tag: #290PV0YQ2
-    Name: 여수의밤
+1.  Tag: #PR0Q9LUUJ
+    Name: Rahul Rai 2
     Townhall Level: 16
-    Map Position: 2
+    Map Position: 11
     Opponent Attacks: 0
 
-3.  Tag: #JLQU2QJJ
-    Name: 콩\(^o^)/ 두
-    Townhall Level: 16
-    Map Position: 3
+2.  Tag: #P9UGP2822
+    Name: §ârôj Ræýêê
+    Townhall Level: 10
+    Map Position: 40
     Opponent Attacks: 0
 
-4.  Tag: #JC2JYG2P
-    Name: 비비아노⭐️
-    Townhall Level: 15
-    Map Position: 9
-    Opponent Attacks: 0
-
-5.  Tag: #VLYL0YGR
-    Name: 비비아노❤
-    Townhall Level: 15
-    Map Position: 7
-    Opponent Attacks: 0
-
-6.  Tag: #GPV89GP0V
-    Name: 시츄
-    Townhall Level: 14
-    Map Position: 34
-    Opponent Attacks: 0
-
-7.  Tag: #QQG8YQQ2U
-    Name: 냐무냐무
-    Townhall Level: 14
-    Map Position: 30
-    Opponent Attacks: 0
-
-8.  Tag: #292C2VRQ2
-    Name: 레옹
+3.  Tag: #YCP802QVY
+    Name: sh¡n¡g@m¡
     Townhall Level: 16
     Map Position: 4
     Opponent Attacks: 0
 
-9.  Tag: #GP0RYUYQC
-    Name: 해피바
+4.  Tag: #8UJUCLYPY
+    Name: Azzu Rayee
+    Townhall Level: 16
+    Map Position: 9
+    Opponent Attacks: 0
+
+5.  Tag: #Q9PLJ8RLV
+    Name: HUNTER:1
+    Townhall Level: 14
+    Map Position: 31
+    Opponent Attacks: 0
+
+6.  Tag: #Y2CYVRYLG
+    Name: Samir Rai 2
+    Townhall Level: 16
+    Map Position: 10
+    Opponent Attacks: 0
+
+7.  Tag: #PRU0VG8RP
+    Name: premmi kto
     Townhall Level: 15
-    Map Position: 32
+    Map Position: 19
     Opponent Attacks: 0
 
-10.  Tag: #UPVVJGJL
-    Name: chul
-    Townhall Level: 14
-    Map Position: 15
-    Opponent Attacks: 0
-
-11.  Tag: #822VRLQV2
-    Name: excellent
-    Townhall Level: 14
-    Map Position: 22
-    Opponent Attacks: 0
-
-12.  Tag: #L8QQR0J2
-    Name: 맛\(^o^)/참
-    Townhall Level: 16
-    Map Position: 5
-    Opponent Attacks: 0
-
-13.  Tag: #L0LQPYUQV
-    Name: 휘레디머큐리
-    Townhall Level: 11
-    Map Position: 39
-    Opponent Attacks: 0
-
-14.  Tag: #GY28GG2JG
-    Name: 햄이네
-    Townhall Level: 14
-    Map Position: 35
-    Opponent Attacks: 0
-
-15.  Tag: #LVGQJC9U9
-    Name: 스스로어린이
-    Townhall Level: 14
-    Map Position: 23
-    Opponent Attacks: 0
-
-16.  Tag: #J0JRQCLG
-    Name: 뀨갓
-    Townhall Level: 16
-    Map Position: 1
-    Opponent Attacks: 0
-
-17.  Tag: #2P0L2LPG9
-    Name: 키키
-    Townhall Level: 14
-    Map Position: 16
-    Opponent Attacks: 0
-
-18.  Tag: #LC9GYCL2L
-    Name: 도토리
-    Townhall Level: 14
-    Map Position: 18
-    Opponent Attacks: 0
-
-19.  Tag: #LU2UC0L80
-    Name: remember밍크
-    Townhall Level: 14
-    Map Position: 17
-    Opponent Attacks: 0
-
-20.  Tag: #LY9YL8GJR
-    Name: SGAN
-    Townhall Level: 16
-    Map Position: 13
-    Opponent Attacks: 0
-
-21.  Tag: #208Y2UPRC
-    Name: 동해아버지
-    Townhall Level: 11
-    Map Position: 37
-    Opponent Attacks: 0
-
-22.  Tag: #VL2PGC2
-    Name: 케밥✅
-    Townhall Level: 15
-    Map Position: 12
-    Opponent Attacks: 0
-
-23.  Tag: #2UQG2LV2J
-    Name: 기드온
+8.  Tag: #9Y0G9CQ8V
+    Name: malai7498
     Townhall Level: 15
     Map Position: 14
     Opponent Attacks: 0
 
-24.  Tag: #8C2U8VQQ
-    Name: 사마나
-    Townhall Level: 11
-    Map Position: 38
-    Opponent Attacks: 0
-
-25.  Tag: #YJJU99P2
-    Name: 비비아노⭕️
+9.  Tag: #P0C2G9QGU
+    Name: Cbi_Kharani
     Townhall Level: 15
-    Map Position: 11
+    Map Position: 8
     Opponent Attacks: 0
 
-26.  Tag: #LQG8R909C
-    Name: Mad TarzzaN
-    Townhall Level: 16
-    Map Position: 6
-    Opponent Attacks: 0
-
-27.  Tag: #QCJL9YP2R
-    Name: Mazino
-    Townhall Level: 15
-    Map Position: 25
-    Opponent Attacks: 0
-
-28.  Tag: #9JR0LQU9
-    Name: 포대기
-    Townhall Level: 14
-    Map Position: 27
-    Opponent Attacks: 0
-
-29.  Tag: #9QUQ8JLUG
-    Name: 희재
-    Townhall Level: 15
-    Map Position: 10
-    Opponent Attacks: 0
-
-30.  Tag: #PRVQVPUGR
-    Name: Dalmuzi
+10.  Tag: #Y8LURYJL0
+    Name: Jeshika
     Townhall Level: 13
-    Map Position: 33
+    Map Position: 37
     Opponent Attacks: 0
 
-31.  Tag: #G0QYC9VYC
-    Name: 황제
+11.  Tag: #20RRUUR
+    Name: jigs
     Townhall Level: 15
-    Map Position: 24
+    Map Position: 30
     Opponent Attacks: 0
 
-32.  Tag: #QRV0CPJY2
-    Name: 이파라파
+12.  Tag: #P9GQ0QYUY
+    Name: Shado Rabel
+    Townhall Level: 16
+    Map Position: 2
+    Opponent Attacks: 0
+
+13.  Tag: #82LRUQ99V
+    Name: ***phyton***
+    Townhall Level: 16
+    Map Position: 7
+    Opponent Attacks: 0
+
+14.  Tag: #Q8L289UL2
+    Name: L▪️E▪️R▪️I▪️C
     Townhall Level: 14
-    Map Position: 29
+    Map Position: 32
     Opponent Attacks: 0
 
-33.  Tag: #Q0LYRRGP8
-    Name: 제니아
-    Townhall Level: 14
-    Map Position: 26
-    Opponent Attacks: 0
-
-34.  Tag: #QVRRQR9QU
-    Name: 매불쇼
-    Townhall Level: 15
-    Map Position: 31
-    Opponent Attacks: 0
-
-35.  Tag: #LVUL8UGCC
-    Name: 내꺼양
+15.  Tag: #9QG0CYJVC
+    Name: Aaditya Kunwar
     Townhall Level: 14
     Map Position: 21
     Opponent Attacks: 0
 
-36.  Tag: #GQ92LY09P
-    Name: 여수의밤
-    Townhall Level: 13
+16.  Tag: #Y0CUVCVPV
+    Name: samir RAI
+    Townhall Level: 16
+    Map Position: 3
+    Opponent Attacks: 0
+
+17.  Tag: #QCRQVY0
+    Name: ＥｄｍｕｎＤ ＣａｒＬヅ
+    Townhall Level: 14
+    Map Position: 22
+    Opponent Attacks: 0
+
+18.  Tag: #9VVGCCGVG
+    Name: Thapa kajee Lx
+    Townhall Level: 14
+    Map Position: 27
+    Opponent Attacks: 0
+
+19.  Tag: #9VJ9902CJ
+    Name: whu
+    Townhall Level: 14
     Map Position: 36
     Opponent Attacks: 0
 
-37.  Tag: #YGVQCP0L
-    Name: 예아
+20.  Tag: #PUC92VGL0
+    Name: Rahul Rai 1
+    Townhall Level: 16
+    Map Position: 1
+    Opponent Attacks: 0
+
+21.  Tag: #LYY29G88G
+    Name: hemank
+    Townhall Level: 14
+    Map Position: 26
+    Opponent Attacks: 0
+
+22.  Tag: #2RQL2U2YP
+    Name: ❤teejay❤
+    Townhall Level: 15
+    Map Position: 15
+    Opponent Attacks: 0
+
+23.  Tag: #QJ20UVJPJ
+    Name: Roshan Roshan
+    Townhall Level: 13
+    Map Position: 35
+    Opponent Attacks: 0
+
+24.  Tag: #989CQ9JCJ
+    Name: Jeeeffff
+    Townhall Level: 15
+    Map Position: 18
+    Opponent Attacks: 0
+
+25.  Tag: #PGRLUYPLR
+    Name: MR JOBAN VIRK
+    Townhall Level: 16
+    Map Position: 12
+    Opponent Attacks: 0
+
+26.  Tag: #QY2PC2UQC
+    Name: Nguy Rithy 168
+    Townhall Level: 14
+    Map Position: 29
+    Opponent Attacks: 0
+
+27.  Tag: #8QQ9L2G9Y
+    Name: Nimesh tamang
+    Townhall Level: 16
+    Map Position: 6
+    Opponent Attacks: 0
+
+28.  Tag: #8P0Y00QJ2
+    Name: dhars
+    Townhall Level: 14
+    Map Position: 24
+    Opponent Attacks: 0
+
+29.  Tag: #8VQ0QPQLC
+    Name: ❣️J❤️D❣️
+    Townhall Level: 14
+    Map Position: 33
+    Opponent Attacks: 0
+
+30.  Tag: #QQQLJ9V22
+    Name: ♛ＹＵＩ-ＡＫＵＭＡ×͜×
+    Townhall Level: 12
+    Map Position: 38
+    Opponent Attacks: 0
+
+31.  Tag: #YR9GJC9P9
+    Name: Ru.pes RAYEE
+    Townhall Level: 16
+    Map Position: 13
+    Opponent Attacks: 0
+
+32.  Tag: #8P929P82J
+    Name: BLACK DRAGON
+    Townhall Level: 15
+    Map Position: 25
+    Opponent Attacks: 0
+
+33.  Tag: #9L8VRCY8G
+    Name: Feezahan
+    Townhall Level: 13
+    Map Position: 34
+    Opponent Attacks: 0
+
+34.  Tag: #P9P9GQJ00
+    Name: binod@jhapali
+    Townhall Level: 14
+    Map Position: 17
+    Opponent Attacks: 0
+
+35.  Tag: #LCV88L0Q0
+    Name: never give up
+    Townhall Level: 14
+    Map Position: 28
+    Opponent Attacks: 0
+
+36.  Tag: #LQQ8P20LG
+    Name: anamikap_
+    Townhall Level: 10
+    Map Position: 39
+    Opponent Attacks: 0
+
+37.  Tag: #28VVGQ8CU
+    Name: sangam
+    Townhall Level: 14
+    Map Position: 16
+    Opponent Attacks: 0
+
+38.  Tag: #LUP8LUGGL
+    Name: Kritagya ™
+    Townhall Level: 15
+    Map Position: 23
+    Opponent Attacks: 0
+
+39.  Tag: #8CP9UVL8
+    Name: Alex thakuri
+    Townhall Level: 16
+    Map Position: 5
+    Opponent Attacks: 0
+
+40.  Tag: #8YLYY2CRG
+    Name: Ti-lak
     Townhall Level: 14
     Map Position: 20
-    Opponent Attacks: 0
-
-38.  Tag: #YQVYJ09Y
-    Name: 이별
-    Townhall Level: 14
-    Map Position: 19
-    Opponent Attacks: 0
-
-39.  Tag: #9Y9UR22RG
-    Name: gh5082
-    Townhall Level: 16
-    Map Position: 8
-    Opponent Attacks: 0
-
-40.  Tag: #PRLJP0LVU
-    Name: 퉁 이
-    Townhall Level: 10
-    Map Position: 40
     Opponent Attacks: 0
 

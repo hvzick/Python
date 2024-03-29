@@ -1,0 +1,299 @@
+                               Clan Warlog
+
+          --->War Number -1<---
+Result: lose
+End Time: 2024-03-29 11:36:44
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 51
+Stars: 86
+Destruction Percentage: 84.15
+Exp Earned: 484
+                Opponent Stats
+Tag: #YY8LQ8VC
+Name: "Green Lantern"
+Clan Level: 21
+Stars: 115
+Destruction Percentage: 96.3
+
+          --->War Number -2<---
+Result: win
+End Time: 2024-03-27 10:54:19
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 46
+Stars: 104
+Destruction Percentage: 88.95
+Exp Earned: 508
+                Opponent Stats
+Tag: #2GC9GYYP
+Name: 파랑새
+Clan Level: 15
+Stars: 34
+Destruction Percentage: 31.525
+
+          --->War Number -3<---
+Result: lose
+End Time: 2024-03-25 09:33:18
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 47
+Stars: 83
+Destruction Percentage: 82.125
+Exp Earned: 486
+                Opponent Stats
+Tag: #2Q2GLGVY2
+Name: REQ
+Clan Level: 18
+Stars: 102
+Destruction Percentage: 89.9
+
+          --->War Number -4<---
+Result: lose
+End Time: 2024-03-23 10:06:53
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 49
+Stars: 87
+Destruction Percentage: 80.325
+Exp Earned: 491
+                Opponent Stats
+Tag: #C2LV2PGU
+Name: Insane Nemesis
+Clan Level: 20
+Stars: 92
+Destruction Percentage: 80.425
+
+          --->War Number -5<---
+Result: lose
+End Time: 2024-03-21 10:41:58
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 40
+Stars: 82
+Destruction Percentage: 77.025
+Exp Earned: 461
+                Opponent Stats
+Tag: #YLCLURVJ
+Name: *BSF MATAB-ANG*
+Clan Level: 24
+Stars: 99
+Destruction Percentage: 85.1
+
+          --->War Number -6<---
+Result: lose
+End Time: 2024-03-19 09:43:07
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 48
+Stars: 87
+Destruction Percentage: 80.475
+Exp Earned: 492
+                Opponent Stats
+Tag: #2L29RRP2U
+Name: indo maju
+Clan Level: 22
+Stars: 102
+Destruction Percentage: 90.45
+
+          --->War Number -7<---
+Result: win
+End Time: 2024-03-17 10:31:53
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 45
+Stars: 90
+Destruction Percentage: 89.1
+Exp Earned: 547
+                Opponent Stats
+Tag: #2YQPRGYLJ
+Name: SALAM OLAHRAGA
+Clan Level: 19
+Stars: 83
+Destruction Percentage: 76.825
+
+          --->War Number -8<---
+Result: lose
+End Time: 2024-03-15 11:00:15
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 41
+Stars: 81
+Destruction Percentage: 75.2
+Exp Earned: 468
+                Opponent Stats
+Tag: #9QCGLQYC
+Name: RETURN MAN
+Clan Level: 18
+Stars: 92
+Destruction Percentage: 82.15
+
+          --->War Number -9<---
+Result: win
+End Time: 2024-03-13 11:13:40
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 48
+Stars: 96
+Destruction Percentage: 87.55
+Exp Earned: 538
+                Opponent Stats
+Tag: #2LJ020RV9
+Name: boka boys
+Clan Level: 21
+Stars: 91
+Destruction Percentage: 79.95
+
+          --->War Number -10<---
+Result: win
+End Time: 2024-03-09 18:31:22
+Team Size: 30
+Attacks Per Member: 1
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 185
+Stars: 505
+Destruction Percentage: 538.23334
+Exp Earned: 0
+                Opponent Stats
+Clan Level: 0
+Stars: 300
+Destruction Percentage: 0.0
+
+          --->War Number -11<---
+Result: win
+End Time: 2024-02-29 12:40:48
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 49
+Stars: 94
+Destruction Percentage: 89.325
+Exp Earned: 527
+                Opponent Stats
+Tag: #2YC9GJCYG
+Name: DRAGON WARRIORS
+Clan Level: 16
+Stars: 74
+Destruction Percentage: 74.325
+
+          --->War Number -12<---
+Result: lose
+End Time: 2024-02-27 09:43:44
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 38
+Stars: 82
+Destruction Percentage: 74.85
+Exp Earned: 423
+                Opponent Stats
+Tag: #RQYRYPPP
+Name: ایران شمال
+Clan Level: 19
+Stars: 92
+Destruction Percentage: 83.425
+
+          --->War Number -13<---
+Result: win
+End Time: 2024-02-25 09:16:38
+Team Size: 30
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 40
+Stars: 74
+Destruction Percentage: 92.03333
+Exp Earned: 425
+                Opponent Stats
+Tag: #28PL0YU2G
+Name: THE DARKNESS
+Clan Level: 20
+Stars: 72
+Destruction Percentage: 87.53333
+
+          --->War Number -14<---
+Result: win
+End Time: 2024-02-23 09:58:07
+Team Size: 30
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 35
+Stars: 64
+Destruction Percentage: 84.9
+Exp Earned: 431
+                Opponent Stats
+Tag: #2LCC0CY2R
+Name: Soju
+Clan Level: 15
+Stars: 61
+Destruction Percentage: 84.53333
+
+          --->War Number -15<---
+Result: win
+End Time: 2024-02-21 07:44:50
+Team Size: 40
+Attacks Per Member: 2
+                Clan Stats
+Tag: #9CVRL9QQ
+Name: BIG勉
+Clan Level: 24
+Attacks: 47
+Stars: 88
+Destruction Percentage: 81.475
+Exp Earned: 530
+                Opponent Stats
+Tag: #9RPVJ9VJ
+Name: RUMAH KITA
+Clan Level: 22
+Stars: 86
+Destruction Percentage: 72.9

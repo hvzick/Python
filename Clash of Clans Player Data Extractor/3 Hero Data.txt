@@ -3,6 +3,6 @@
 2. Archer Queen: Hero Level = 86/95
 3. Grand Warden: Hero Level = 69/70
 4. Battle Machine: Hero Level = 35/35
-5. Royal Champion: Hero Level = 33/45
-6. Battle Copter: Hero Level = 23/35
+5. Royal Champion: Hero Level = 34/45
+6. Battle Copter: Hero Level = 24/35
 

@@ -6,7 +6,7 @@ import datetime
 from Authorization import email
 from Authorization import password
 # Replace 'YOUR_API_TOKEN' with the actual API token you obtained
-api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5NzgxZGE1LWMzNjMtNDBiOS1hMWYyLTU3NDQ5ZGRmMmNhMiIsImlhdCI6MTcxMTQ0NDA4Miwic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE2OS4xNDkuMTkzLjQ4Il0sInR5cGUiOiJjbGllbnQifV19.r8JWG1Tjc6ZA1f2XavBaoRiJwtoZjQGdNxsi_uxeG2VvKRzNBMg_idNNcz0wT3r91IRE2eOtqeCiuP7oTImyWQ'
+api_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjQ4MjAxNjM1LTUyYjgtNDc2Yy05MmQ2LWRlMjAyMzZlZjYyOSIsImlhdCI6MTcxMTcyNzI1Miwic3ViIjoiZGV2ZWxvcGVyL2JhNGM5MmJmLTU3ODYtMmM3My03YzdmLTJlOWViZDQ0MWE4YSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyMi4xNjEuMjQyLjI5Il0sInR5cGUiOiJjbGllbnQifV19.K8oOQ3hjUMzuOVU7kdnuPxPmWlOwGq7du-YOblkBxwl7ZIQdDPEcCd3IszIWOBhLMKr97kR-Xke-dRxXndW4gQ'
 
 # Set up headers with the API token for authentication
 headers = {
@@ -16,7 +16,7 @@ headers = {
 
 def main():
     for file in os.listdir():
-        if file.endswith('Data.txt'):
+        if file.endswith('.txt'):
             os.unlink(file)
     while True:
         x = input('Enter Email: ').strip()
@@ -28,36 +28,95 @@ def main():
             print('Email or Password incorrect')
 
     while True:
-        c = int(input('Enter 1 for player data\nEnter 2 for clan data\nEnter 0 to exit: \n'))
+        c = int(input('\nEnter 1 for player data\nEnter 2 for clan data\nEnter 0 to exit: \n'))
         if c == 1:
             playerdata()
         elif c == 2:
-            clanTag = input('Enter clan tag: ').upper().strip()
-            clanData(clanTag)
+            clanData()
         elif c == 0:
              break
 
 
-def clanData(clanTag):
+def clanData():
+    clanTag = input('Enter clan tag: ').upper().strip()
     while True:
-        x = int(input('\nEnter 1 for Clan Members Information\nEnter 2 for Current War Status\nEnter 3 for Clan Warlog\nEnter 0 to exit: '))
+        x = int(input('\nEnter 1 for Clan Information\nEnter 2 for Clan Members Information\nEnter 2 for Current War Status\nEnter 4 for Clan Capital Details\nEnter 0 to return: '))
         match x:
             case 1:
-                clanMembers(clanTag)
+                clanInfo(clanTag)
             case 2:
-                currentWar(clanTag)
+                clanMembers(clanTag)
             case 3:
+                currentWar(clanTag)
+            case 4:
                 warlog(clanTag)
             case 0:
                 return
 
-
-
-def warlog(clanTag):
-    url = 'https://api.clashofclans.com/v1/clans/%23{clanTag}/warlog'
+def clanInfo(clanTag):
+    url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}'
     response = requests.get(url, headers=headers)
-    warlog = response.json()
-    print(warlog)
+    data = response.json()
+    x = caseChange(data)
+    with open('1 Clan Information Data.txt', 'w', encoding='utf-8') as file:
+        file.write(f"{' ' * 30} Clan Information Data\n")
+        q = 1
+        for i,j in x.items():
+            if q == 9:
+                break
+            else:
+                if i == 'Location':
+                    for v,k in x['Location'].items():
+                        newv = camel_to_title_case(v)
+                        if 'Country' in v:
+                            file.write(f'{newv}: {k}\n')
+                        else:
+                            file.write(f'Country {newv}: {k}\n')
+                    continue
+                elif i == 'Badge Urls':
+                    continue
+                elif i == 'Type':
+                    jj = camel_to_title_case(j)
+                    file.write(f'{i}: {jj}\n')
+                    continue
+                file.write(f'{i}: {j}\n')
+            q += 1
+    return 0
+def warlog(clanTag):
+    no = int(input('Enter number of wars: '))
+    url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/warlog?limit={no}'  # Correctly format clanTag and no in the URL
+    response = requests.get(url, headers=headers)
+    x = response.json()
+    with open('4 Clan Warlog.txt', 'w', encoding='utf-8') as file:
+        file.write(f"{' ' * 30} Clan Warlog\n")
+        t = -1
+        for i in range(len(x['items'])):
+            file.write(f"\n{' ' * 10}--->War Number {t}<---\n")
+            for j, k in x['items'][i].items():
+                nj = camel_to_title_case(j)
+                if j == 'endTime':
+                    y = datetime.datetime.strptime(k, '%Y%m%dT%H%M%S.%fZ')
+                    file.write(f'{nj}: {y}\n')
+                    continue
+                if j == 'clan':
+                    file.write(f"{' ' * 15} Clan Stats\n")
+                    for v,s in x['items'][i][j].items():
+                        if v == 'badgeUrls':
+                            continue
+                        vv = camel_to_title_case(v)
+                        file.write(f'{vv}: {s}\n')
+                    continue
+                if j == 'opponent':
+                    file.write(f"{' ' * 15} Opponent Stats\n")
+                    for vv,ss in x['items'][i][j].items():
+                        if vv == 'badgeUrls':
+                            continue
+                        vvv = camel_to_title_case(vv)
+                        file.write(f'{vvv}: {ss}\n')
+                    continue
+                file.write(f'{nj}: {k}\n')
+            t = t-1
+    return 0
 
 
 
@@ -67,7 +126,7 @@ def currentWar(clanTag):
 
     response = requests.get(url, headers=headers)
     currentWar = response.json()
-    with open('2 Current War Data.txt', 'w', encoding='utf-8') as file:
+    with open('3 Current War Data.txt', 'w', encoding='utf-8') as file:
         file.write(f"{' ' * 30} Clan War Information\n")
         for key in currentWar:
             if key in ['clan', 'opponent']:
@@ -125,7 +184,7 @@ def clanMembers(clanTag):
     url = f'https://api.clashofclans.com/v1/clans/%23{clanTag}/members'
     response = requests.get(url, headers=headers)
     clanMembers = response.json()
-    with open('1 Clan Members Data.txt', 'w', encoding='utf-8') as file:
+    with open('2 Clan Members Data.txt', 'w', encoding='utf-8') as file:
         i = 0
 
         file.write(f"{' ' * 30} Clan Members\n")
@@ -158,7 +217,7 @@ def playerdata():
 # Check if the request was successful (status code 200)
     if response.status_code == 200:
         while True:
-            x = int(input("\nEnter 1 for Player Data\nEnter 2 for Troop Data \nEnter 3 for Hero Data \nEnter 4 for Hero Equipment Data \nEnter 5 for Spell Data \nEnter 6 for Achievement Data\nEnter 0 to exit: "))
+            x = int(input("\nEnter 1 for Player Data\nEnter 2 for Troop Data \nEnter 3 for Hero Data \nEnter 4 for Hero Equipment Data \nEnter 5 for Spell Data \nEnter 6 for Achievement Data\nEnter 0 to return: "))
             player_data = response.json()
             if x > 6 or x < 0:
                 print(f"\nInvalid input: {x}\n")
