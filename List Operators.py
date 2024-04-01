@@ -1,3 +1,4 @@
+
 list = ['a', 'b', 'c', 'd', 'e']
 
 print(list[0:1]) # Prints elements at index 0 only

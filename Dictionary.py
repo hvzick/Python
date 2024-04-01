@@ -1,13 +1,12 @@
 my_dictionary1 = {"Hazik": "My name is Hazik"}
 
 my_dictionary2 = {
-    "Faizan": "He is my classmate",
-    "Atif": "He is my cousin",
-    "Mehnoor": "She is my sister",
-    21048112060: "This is my enrollment no."
+    1: "Ein",
+    2: "Zwei",
+    3: "Drei",
+    4: "Vier",
+    5: "Funf"
 }
-print(my_dictionary1)
-print(my_dictionary2)
 print(my_dictionary1["Hazik"])
 print(my_dictionary2[21048112060])
 
